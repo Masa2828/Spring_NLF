@@ -1,0 +1,12 @@
+@charset "UTF-8";
+#top{
+  margin: 50px;
+}
+.top_name{
+  text-align: center;
+}
+a{
+  font-size: 66px;
+  text-decoration: none;
+  color: #098;
+}
