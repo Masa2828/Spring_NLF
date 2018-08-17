@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+#top_box {
+	margin: 50px;
+}
+
+.top_name {
+	text-align: center;
+}
+
+a {
+	font-size: 66px;
+	text-decoration: none;
+	color: #098;
+}
+
+.app_top {
+	text-aligin: center;
+	font-size: 66px;
+	text-decoration: none;
+	color: #098;
+}
+
+p.app_top {
+	text-align: center;
+}

@@ -6,10 +6,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>生徒-Top-</title>
-<link href="<c:url value=" resources/css/main.css"/>" rel="stylesheet">
+<link href="<c:url value=" resources/css/style.css"/>" rel="stylesheet">
 </head>
 <body>
-			<div id="top">
+			<div id="top_box">
 				<p class="top_name">
 				<!-- /以降がcodeで編集すると勝手に変更されるから注意 -->
 					<a href="<c:url value="/index.jsp "/>">就職活動報告アプリ</a>
