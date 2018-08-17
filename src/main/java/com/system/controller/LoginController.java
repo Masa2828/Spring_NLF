@@ -20,6 +20,15 @@ public class LoginController {
 		return "/login/students";
 	}
 	
+	@RequestMapping(value = "/teacher_top", method = RequestMethod.GET)
+	public String teacher_top(Model model) {
+		return "/teacher/teacher_top";
+	}
+	
+	@RequestMapping(value = "/students_top", method = RequestMethod.GET)
+	public String students_top(Model model) {
+		return "/students/students_top";
+	}
 	
 	
 }

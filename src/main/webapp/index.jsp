@@ -25,7 +25,7 @@
 	<form action="teacher_login" method="get">
 
 		<div>
-			<input type="submit" value="ログイン">
+			<input type="submit" value="次へ">
 		</div>
 
 	</form>
@@ -35,7 +35,7 @@
 	<form action="students_login" method="get">
 
 		<div>
-			<input type="submit" value="ログイン">
+			<input type="submit" value="次へ">
 		</div>
 
 	</form>

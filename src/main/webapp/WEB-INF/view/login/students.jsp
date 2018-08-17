@@ -7,8 +7,8 @@
 		<head>
 			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 			<title>生徒用</title>
-			<link href="<c:url value=" resources/css/login.css "/>" rel="stylesheet">
-			<link href="<c:url value=" resources/css/main.css "/>" rel="stylesheet">
+			<link href="<c:url value=" resources/css/login.css"/>" rel="stylesheet">
+			<link href="<c:url value=" resources/css/main.css"/>" rel="stylesheet">
 		</head>
 
 		<body>
@@ -21,7 +21,7 @@
 
 			<div id="form">
 				<p class="form-title">Login</p>
-				<form action="students_login" method="get">
+				<form action="students_top" method="get">
 					<!-- 後ほどpostに変更 -->
 					<p>ID</p>
 					<p class="id">

@@ -23,7 +23,7 @@
 
 			<div id="form">
 				<p class="form-title">Login</p>
-				<form action="teacher_login" method="get">
+				<form action="teacher_top" method="get">
 					<!-- 後ほどpostに変更 -->
 					<p>ID</p>
 					<p class="id">
