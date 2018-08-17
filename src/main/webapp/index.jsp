@@ -10,7 +10,7 @@
 <meta charset=UTF-8>
 <title>就職</title>
 <link href="<c:url value="/resources/css/test.css"/>" rel="stylesheet">
-<link href="<c:url value=" resources/css/main.css "/>" rel="stylesheet">
+<link href="<c:url value=" resources/css/main.css"/>" rel="stylesheet">
 </head>
 
 <body>
