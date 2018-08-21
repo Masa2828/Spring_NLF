@@ -31,7 +31,8 @@
 		<property name="driverClassName"
 			value="org.gjt.mm.mysql.Driver" />
 		<property name="url"
-			value="jdbc:mysql://127.0.0.1:3306/testdb" />
+			value="jdbc:mysql://localhost/testdb" />
+			<!-- testdb変更しないと使えない -->
 		<property name="username" value="root" /><!-- ユーザIDを入力 -->
 		<property name="password" value="masashi0828" /><!-- パスワードを入力 -->
 	</bean>
