@@ -52,7 +52,7 @@ public class LoginController {
 			newSession.setAttribute("loginName", loginForm.getLoginName());
 			model.addAttribute("loginName", loginForm.getLoginName());
 			model.addAttribute("pass", list.get(0).get("password"));
-			return "/teacher/teacher_top";
+			return "/students/students_top";
 
 		} else {
 			return "/login/students";
