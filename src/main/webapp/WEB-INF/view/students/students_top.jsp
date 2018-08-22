@@ -16,6 +16,8 @@
 				</p>
 			</div>
 			
+			<%=((String) session.getAttribute("loginName"))%>さん
+			
 			<!-- aタグでjspにとばす　以下のつ -->
 			<p>就職活動申請</p>
 			<p>就職活動修正</p>
