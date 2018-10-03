@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>生徒-Top-</title>
-<link href="<c:url value=" resources/css/style.css"/>" rel="stylesheet">
+<link href="<c:url value="/resources/css/style.css"/>" rel="stylesheet">
 </head>
 <body>
 			<div id="top_box">

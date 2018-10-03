@@ -10,9 +10,11 @@
 </head>
 <body>
 	<div id="top_box">
-		<p class="app_top">就職活動報告アプリ</p>
+		<p class="top_name">
+			<!-- /以降がcodeで編集すると勝手に変更されるから注意 -->
+			<a href="<c:url value="/index.jsp "/>">就職活動報告アプリ</a>
+		</p>
 	</div>
-
 
 
 

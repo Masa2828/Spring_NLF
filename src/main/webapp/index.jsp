@@ -10,36 +10,48 @@
 <meta charset=UTF-8>
 <title>就職</title>
 <link href="<c:url value="/resources/css/test.css"/>" rel="stylesheet">
-<link href="<c:url value="resources/css/style.css"/>" rel="stylesheet">
+<link href="<c:url value="/resources/css/style.css"/>" rel="stylesheet">
+<script type="text/javascript"
+	src="<c:url value="/resources/js/move.js"/>"></script>
 </head>
 
 <body>
 
-			<div id="top_box">
-				<p class="top_name">
-				<!-- /以降がcodeで編集すると勝手に変更されるから注意 -->
-					<a href="<c:url value="/index.jsp"/>">就職活動報告アプリ</a>
-				</p>
+	<div id="top_box">
+		<p class="top_name">
+			<!-- /以降がcodeで編集すると勝手に変更されるから注意 -->
+			<a href="<c:url value="/index.jsp"/>">就職活動報告アプリ </a>
+		</p>
+	</div>
+
+	<ul id="switch">
+		<li id="a">教師</li>
+		<li id="b">生徒</li>
+	</ul>
+
+	<div id="divA">
+
+		<form action="teacher_login" method="get">
+			<div>
+				<input type="submit" value="Teacher Login" class="cp_btn">
+			</div>
+		</form>
+
+	</div>
+
+
+	<div id="divB">
+
+		<form action="students_login" method="get">
+
+			<div>
+				<input type="submit" value="Students Login" class="cp_btn">
 			</div>
 
-	<h2>教師</h2>
-	<form action="teacher_login" method="get">
+		</form>
 
-		<div>
-			<input type="submit" value="次へ">
-		</div>
+	</div>
 
-	</form>
-	
-	
-	<h2>生徒</h2>
-	<form action="students_login" method="get">
-
-		<div>
-			<input type="submit" value="次へ">
-		</div>
-
-	</form>
 </body>
 
 </html>

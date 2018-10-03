@@ -25,8 +25,36 @@ public class LoginController {
 	private JdbcTemplate jdbcTemplate;
 
 	@RequestMapping(value = "/teacher_login", method = RequestMethod.GET)
-	public String teacher_login(Model model) {
+	public String teacher_login(Model model,@Validated(GroupOrder.class) @ModelAttribute("loginForm") LoginForm loginForm, BindingResult result,
+			HttpServletRequest req) {
+		if (result.hasErrors()) {
 		return "/login/teacher";
+	}
+		// mysql値受け取り
+		List<Map<String, Object>> list = jdbcTemplate.queryForList("select * from teacher where teacher_id=\""
+				+ loginForm.getLoginName() + "\" and " + "password=\"" + loginForm.getLoginPassword() + "\";");
+		if (list.size() > 0) {
+			HttpSession session = req.getSession(true);
+
+			// 既存セッション破棄
+			session.invalidate();
+
+			// 新規セッションを開始
+			HttpSession newSession = req.getSession(true);
+
+			// セッションに値を格納
+			newSession.setAttribute("loginName", loginForm.getLoginName());
+			model.addAttribute("loginName", loginForm.getLoginName());
+			model.addAttribute("pass", list.get(0).get("password"));
+			return "/teacher/teacher_top";
+
+		} else {
+			return "/login/teacher";
+		}
+	}
+	@RequestMapping(value = "/teacher_top", method = RequestMethod.GET)
+	public String teacher_top(Model model) {
+		return "/teacher/teacher_top";
 	}
 
 	@RequestMapping(value = "/students_login", method = RequestMethod.GET)
