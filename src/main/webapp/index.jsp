@@ -24,6 +24,8 @@
 		</p>
 	</div>
 
+<div class="box">
+
 	<ul id="switch">
 		<li id="a">教師</li>
 		<li id="b">生徒</li>
@@ -33,7 +35,7 @@
 
 		<form action="teacher_login" method="get">
 			<div>
-				<input type="submit" value="Teacher Login" class="cp_btn">
+				<input type="submit" value="Teachers Login" class="button">
 			</div>
 		</form>
 
@@ -44,13 +46,15 @@
 
 		<form action="students_login" method="get">
 
-			<div>
-				<input type="submit" value="Students Login" class="cp_btn">
+			<div class ="box">
+				<input type="submit" value="Students Login" class="button">
 			</div>
 
 		</form>
 
 	</div>
+
+</div>
 
 </body>
 
