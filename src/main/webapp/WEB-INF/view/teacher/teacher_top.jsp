@@ -14,15 +14,14 @@
 			<!-- /以降がcodeで編集すると勝手に変更されるから注意 -->
 			<a href="<c:url value="/index.jsp "/>">就職活動報告アプリ</a>
 		</p>
-	</div>
-
-
-
-	<!-- a タグで以下の4つ飛ばす -->
-	<p>就職活動確認</p>
-	<p>検索・閲覧</p>
-	<p>生徒とチャット</p>
-	<p>設定</p>
+	</div>	
+	
+	<a href="<c:url value="/check_t"/>">就職活動確認</a>
+	<a href="<c:url value="/search_t"/>">検索・閲覧</a>
+	<a href="<c:url value="/chat_t"/>">生徒とチャット</a>
+	<a href="<c:url value="/general_t"/>">設定</a>
+	<a href="<c:url value="/add_t"/>">生徒追加</a>
+	
 
 
 	<p>ログアウト</p>

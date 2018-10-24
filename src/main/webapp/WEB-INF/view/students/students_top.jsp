@@ -17,15 +17,12 @@
 	</div>
 
 
-	<!-- aタグでjspにとばす　以下のつ -->
-	<p>就職活動申請</p>
-	<p>就職活動修正</p>
-	<p>就職活動報告</p>
-	<p>検索・閲覧</p>
-	<p>先生とチャット</p>
-	
-	<a href="/WEB-INF/view/students/general/students_general.jsp">設定</a>
-	<p>設定</p>
+	<a href="<c:url value="/application_s"/>">就職活動申請</a>
+	<a href="<c:url value="/correction_s"/>">就職活動修正</a>
+	<a href="<c:url value="/report_s"/>">就職活動報告</a>
+	<a href="<c:url value="/search_s"/>">検索・閲覧</a>
+	<a href="<c:url value="/chat_s"/>">先生とチャット</a>
+	<a href="<c:url value="/general_s"/>">設定</a>
 
 
 	<p>ログアウト</p>
