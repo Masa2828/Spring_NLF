@@ -30,16 +30,21 @@
 			<p class="form-title">Login</p>
 			<f:form modelAttribute="loginForm" action="students_login" method="get">
 				<!-- 後ほどpostに変更 -->
+				<div class = "id-pass_box">
 				<p>ID</p>
 				<p class="id">
 					<input type="text" name="loginName" id="loginName">
 					<f:errors path="loginName" element="div" cssStyle="color:red" />
 				</p>
+				</div>
+				
+				<div class = "id-pass_box">
 				<p>Password</p>
 				<p class="pass">
 					<input type="password" name="loginPassword" id="loginPassword">
 					<f:errors path="loginPassword" element="div" cssStyle="color:red" />
 				</p>
+				</div>
 
 				<p class="submit">
 					<input type="submit" value="Login" />
