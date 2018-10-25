@@ -12,15 +12,15 @@
 	<div id="top_box">
 		<p class="top_name">
 			<!-- /以降がcodeで編集すると勝手に変更されるから注意 -->
-			<a href="<c:url value="/index.jsp "/>">就職活動報告アプリ</a>
+			<a class ="top_design" href="<c:url value="/index.jsp "/>">就職活動報告アプリ</a>
 		</p>
 	</div>	
 	
-	<a href="<c:url value="/check_t"/>">就職活動確認</a>
-	<a href="<c:url value="/search_t"/>">検索・閲覧</a>
-	<a href="<c:url value="/chat_t"/>">生徒とチャット</a>
-	<a href="<c:url value="/general_t"/>">設定</a>
-	<a href="<c:url value="/add_t"/>">生徒追加</a>
+	<a class ="font_design" href="<c:url value="/check_t"/>">就職活動確認</a>
+	<a class ="font_design" href="<c:url value="/search_t"/>">検索・閲覧</a>
+	<a class ="font_design" href="<c:url value="/chat_t"/>">生徒とチャット</a>
+	<a class ="font_design" href="<c:url value="/general_t"/>">設定</a>
+	<a class ="font_design" href="<c:url value="/add_t"/>">生徒追加</a>
 	
 
 

@@ -9,9 +9,11 @@
 }
 
 a {
-	font-size: 66px;
 	text-decoration: none;
+}
+.top_design{
 	color: #098;
+	font-size: 66px;
 }
 
 .app_top {

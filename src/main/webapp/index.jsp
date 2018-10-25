@@ -20,7 +20,7 @@
 	<div id="top_box">
 		<p class="top_name">
 			<!-- /以降がcodeで編集すると勝手に変更されるから注意 -->
-			<a href="<c:url value="/index.jsp"/>">就職活動報告アプリ </a>
+			<a class ="top_design" href="<c:url value="/index.jsp"/>">就職活動報告アプリ </a>
 		</p>
 	</div>
 
