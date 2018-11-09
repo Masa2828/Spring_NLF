@@ -9,12 +9,13 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class TeacherController {
+
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
+
 
 	@RequestMapping(value = "/chat_t", method = RequestMethod.GET)
 	public String chat_t(Model model) {
@@ -27,12 +28,8 @@ public class TeacherController {
 	}
 
 	@RequestMapping(value = "/general_t", method = RequestMethod.GET)
-	public String general_t(Model model, @RequestParam("teacher_id") String teacher_id) {
+	public String general_t(Model model) {
 
-		List<Map<String, Object>> teacher_info = jdbcTemplate.queryForList("select * from teacher where teacher_id = ?",
-				teacher_id);
-
-		model.addAttribute("teacher_info", teacher_info);
 
 		return "/teacher/general/teacher_general";
 	}
@@ -42,8 +39,12 @@ public class TeacherController {
 		return "/teacher/search/teacher_search";
 	}
 
-	@RequestMapping(value = "/add_t", method = RequestMethod.GET)
+	@RequestMapping(value = "/add_t")
 	public String add_t(Model model) {
+		List<Map<String, Object>> students_add = jdbcTemplate.queryForList("select * from students");
+
+		model.addAttribute("add", students_add);
+		
 		return "/teacher/add/teacher_add";
 	}
 

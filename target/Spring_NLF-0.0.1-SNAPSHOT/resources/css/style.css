@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+#top_box {
+	margin: 50px;
+}
+
+.top_name {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+}
+.top_design{
+	color: #098;
+	font-size: 66px;
+}
+
+.app_top {
+	text-aligin: center;
+	font-size: 66px;
+	text-decoration: none;
+	color: #098;
+}
+
+p.app_top {
+	text-align: center;
+}
+
+input.cp_btn {
+	width:150px;
+	height: 50px;
+}
+.box{
+	display: inline-block;
+    text-align: center;
+    width:100%;
+}
+
+#switch {
+  display: block;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  width: 500px;
+  }
+ .button {
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 11pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 11px 70px;   /* 余白       */
+  background    : #F39800;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 4px 4px 10px #666;  /* 影の設定 */
+  border        : 2px solid #F39800;    /* 枠の指定 */
+}
+.button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #F39800;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+.btn {
+  float: left;
+  width: 215px;
+  margin: 0 0 5rem 10px;
+  padding: 5px;
+  font-size: 1.6rem;
+  text-align: center;
+  background: #02b067;
+  color: #FFF;
+  border-bottom: 4px solid rgba(0, 0, 0, .2);
+  }
+.btn:hover {
+  opacity: .8;
+  cursor: pointer;
+  }
+.inactive { opacity: .5; }
+.inactive:hover {
+  opacity: .5;
+  cursor: default;
+  }
+.boxDisplay { display: block; }
+.boxNone { display: none; }
