@@ -33,9 +33,9 @@
 
 	<div id="divA">
 
-		<form action="teacher_login" method="POST">
+		<form action="teacher_login" method="get">
 			<div>
-				<input type="submit" value="Teachers_Login" class="button">
+				<input type="submit" value="Teachers Login" class="button">
 			</div>
 		</form>
 
@@ -44,10 +44,10 @@
 
 	<div id="divB">
 
-		<form action="students_login" method="POST">
+		<form action="students_login" method="get">
 
 			<div class ="box">
-				<input type="submit" value="Students_Login" class="button">
+				<input type="submit" value="Students Login" class="button">
 			</div>
 
 		</form>

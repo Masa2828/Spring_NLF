@@ -15,26 +15,25 @@
 
 		<form:form action="" method="get">
 			<c:forEach var="teacher" items="${teacher_info}">
-				<div>
-				</div>
+				<div></div>
 
-				<p> 
+				<p>
 					教師ID：<input type="text" id="UpCode" name="UpCode"
-						value=${teacher.teacher_id} readonly="readonly" />
+						value=${teacher.teacher_id }/>
 				</p>
 				<p>
 					教師名：<input type="text" id="UpName" name="UpName"
-						value=${teacher.teacher_name} />
+						value=${teacher.teacher_name } />
 				</p>
 
 				<p>
 					パスワード：<input type="text" id="UpGroup" name="UpGroup"
-						value=${teacher.password} />
+						value=${teacher.password } />
 				</p>
 
 				<p>
 					学科：<input type="text" id="UpGroup" name="UpGroup"
-						value=${teacher.course} />
+						value=${teacher.course } />
 				</p>
 
 
