@@ -9,6 +9,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>教師-Top-</title>
 <link href="<c:url value="/resources/css/style.css"/>" rel="stylesheet">
+<link href="<c:url value="/resources/css/test.css"/>" rel="stylesheet">
 </head>
 <body>
 	<div id="top_box">
@@ -28,8 +29,6 @@
 	 
 	<a class="font_design" href="<c:url value="/general_t"/>">設定</a>
 	<a class="font_design" href="<c:url value="/add_t"/>">生徒管理</a>
-
-
 
 
 
