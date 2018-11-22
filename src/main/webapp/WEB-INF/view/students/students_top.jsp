@@ -25,19 +25,19 @@
 
 	<!--就職活動申請-->
 	<a class="share_btn2 shtw" href="<c:url value="/application_s"/>">
-		A </a>
+		App </a>
 	<!--Chat-->
-	<a class="share_btn2 shfb" href="#"> C </a>
+	<a class="share_btn2 shfb" href="#"> Cht </a>
 	<!--検索-->
-	<a class="share_btn2 shhtb" href="<c:url value="/search_s"/>"> S</a>
+	<a class="share_btn2 shhtb" href="<c:url value="/search_s"/>"> Src</a>
 	<!--twiiter-->
-	<a class="share_btn2 shpkt" href="https://twitter.com/ApCh_Inc"> T
+	<a class="share_btn2 shpkt" href="https://twitter.com/ApCh_Inc"> Tw
 	</a>
 	<!--インスタ-->
-	<a class="share_btn2 shfdly" href="https://www.instagram.com/apple_children_inc/?hl=ja"> I </a>
+	<a class="share_btn2 shfdly" href="https://www.instagram.com/apple_children_inc/?hl=ja"> Ins </a>
 	<!--HP-->
 	<a class="share_btn2 shgp"
-		href="#"> H </a>
+		href="#"> HP </a>
 
 
 
@@ -53,8 +53,3 @@
 
 </body>
 </html>
-<script type="text/javascript">
-	var addthis_config = {
-		"data_track_addressbar" : true
-	};
-</script>

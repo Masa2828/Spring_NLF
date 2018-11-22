@@ -5,15 +5,15 @@
 <html>
 <head>
 <meta charset=UTF-8>
-<title>会社検索</title>
 <link href="<c:url value="/resources/css/table.css"/>" rel="stylesheet">
+<title>会社検索</title>
 </head>
 <body>
 
-
 	<h1>検索画面</h1>
-	<table>
+	<table class="table">
 		<tr>
+			<!-- 8つ -->
 			<th>開始日:</th>
 			<th>終了日:</th>
 			<th>場所:</th>
@@ -38,6 +38,8 @@
 			</tr>
 		</c:forEach>
 	</table>
+
+
 
 
 </body>

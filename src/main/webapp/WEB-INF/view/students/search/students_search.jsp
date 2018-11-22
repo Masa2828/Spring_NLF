@@ -5,11 +5,12 @@
 <!DOCTYPE>
 <html>
 <head>
+
 <meta charset=UTF-8>
-<title>Insert title here</title>
+<title>生徒検索画面</title>
+
 </head>
 <body>
-
 
 	<f:form action="search_s_day" method="get">
 		<p>

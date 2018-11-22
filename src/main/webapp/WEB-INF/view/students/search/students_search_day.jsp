@@ -4,26 +4,27 @@
 <!DOCTYPE>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>検索・閲覧</title>
-
+<meta charset=UTF-8>
+<title>日検索</title>
+<link href="<c:url value="/resources/css/table.css"/>" rel="stylesheet">
 </head>
 <body>
 
 
 	<h1>検索画面</h1>
-	<table class="table">
+	<table>
+		<tr>
+			<th>開始日:</th>
+			<th>終了日:</th>
+			<th>場所:</th>
+			<th>内容:</th>
+			<th>会社:</th>
+			<th>報告:</th>
+			<th>報告日:</th>
+			<th>メモ:</th>
+		</tr>
 		<c:forEach var="d" items="${day}">
-			<tr>
-				<th>開始日:</th>
-				<th>終了日:</th>
-				<th>場所:</th>
-				<th>内容:</th>
-				<th>会社:</th>
-				<th>報告:</th>
-				<th>報告日:</th>
-				<th>メモ:</th>
-			</tr>
+
 			<tr>
 				<td><c:out value="${d.start_day}" /></td>
 				<td><c:out value="${d.finish_day}" /></td>

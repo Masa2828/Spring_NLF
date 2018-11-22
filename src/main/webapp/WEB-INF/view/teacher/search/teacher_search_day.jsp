@@ -1,15 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<!DOCTYPE>
+<!DOCTYPE >
 <html>
 <head>
 <meta charset=UTF-8>
-<title>会社検索</title>
+<title>日検索</title>
 <link href="<c:url value="/resources/css/table.css"/>" rel="stylesheet">
 </head>
 <body>
-
 
 	<h1>検索画面</h1>
 	<table>
@@ -23,17 +22,17 @@
 			<th>報告日:</th>
 			<th>メモ:</th>
 		</tr>
-		<c:forEach var="co" items="${company}">
+		<c:forEach var="d" items="${day}">
 
 			<tr>
-				<td><c:out value="${co.start_day}" /></td>
-				<td><c:out value="${co.finish_day}" /></td>
-				<td><c:out value="${co.place}" /></td>
-				<td><c:out value="${co.content}" /></td>
-				<td><c:out value="${co.company}" /></td>
-				<td><c:out value="${co.report}" /></td>
-				<td><c:out value="${co.report_day}" /></td>
-				<td><c:out value="${co.memo}" /></td>
+				<td><c:out value="${d.start_day}" /></td>
+				<td><c:out value="${d.finish_day}" /></td>
+				<td><c:out value="${d.place}" /></td>
+				<td><c:out value="${d.content}" /></td>
+				<td><c:out value="${d.company}" /></td>
+				<td><c:out value="${d.report}" /></td>
+				<td><c:out value="${d.report_day}" /></td>
+				<td><c:out value="${d.memo}" /></td>
 
 			</tr>
 		</c:forEach>

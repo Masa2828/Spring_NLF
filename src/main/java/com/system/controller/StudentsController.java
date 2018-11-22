@@ -96,9 +96,13 @@ public class StudentsController {
 	}
 
 	@RequestMapping(value = "/search_s_com", method = RequestMethod.GET)
-	public String search_com(Model model,@RequestParam("company") String com)throws UnsupportedEncodingException {
+	public String search_com(Model model ,HttpServletRequest req)throws UnsupportedEncodingException {
 		
-		List<Map<String, Object>> students_com = jdbcTemplate.queryForList("select * from applications where company = ?", com);
+		req.setCharacterEncoding("UTF-8");
+		String comp = req.getParameter("company");
+		req.setAttribute("company", comp);
+		
+		List<Map<String, Object>> students_com = jdbcTemplate.queryForList("select * from applications where company = ?", comp);
 
 		model.addAttribute("company", students_com);
 
