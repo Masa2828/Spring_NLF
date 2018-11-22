@@ -14,47 +14,6 @@
 </head>
 <body>
 
-
-
-	<%-- 
-	<f:form action="application_insert" method="get">
-		<p>
-			開始日：<input type="date" id="New_Start_Day" name="New_Start_Day"
-				required>
-		</p>
-
-		<p>
-			終了日：<input type="date" id="New_End_Day" name="New_End_Day" required>
-		</p>
-
-		<p>
-			場所：<input type="text" id="New_Place" name="New_Place" required>
-		</p>
-		<p>
-			内容： <input type="radio" id="New_Contect" name="New_Contect"
-				value="単独説明会" required>単独 <input type="radio"
-				id="New_Contect" name="New_Contect" value="合同説明会" required>合同
-			<input type="radio" id="New_Contect" name="New_Contect" value="試験"
-				required>試験
-		</p>
-		<p>
-			会社：<input type="text" id="New_Company" name="New_Company" required>
-		</p>
-		<p>
-			届： <input type="radio" id="New_Report" name="New_Report" value="遅刻"
-				required>遅刻 <input type="radio" id="New_Report"
-				name="New_Report" value="早退" required>早退 <input type="radio"
-				id="New_Report" name="New_Report" value="欠席" required>欠席
-		</p>
-		<p>
-			日付：<input type="date" id="New_Report_Day" name="New_Report_Day">
-		</p>
-		<p>
-			メモ：<input type="text" id="New_Memo" name="New_Memo">
-		</p>
-		<input type="checkbox" required>
-		<input type="submit" value="登録">
-	</f:form> --%>
 	<div id="top_box">
 		<p class="top_name">
 			<!-- /以降がcodeで編集すると勝手に変更されるから注意 -->

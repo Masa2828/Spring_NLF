@@ -1,30 +1,32 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@ taglib prefix="f" uri="http://www.springframework.org/tags/form"%>
+
 <!DOCTYPE>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>検索・閲覧</title>
-
+<meta charset=UTF-8>
+<title>Insert title here</title>
 </head>
 <body>
 
 
-	<h1>検索画面</h1>
-	<table class="home">
-		<thead>
-			<tr>
-				<th>日付</th>
-				<th>活動会社名</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td><input type="date" name="date"></td>
-				<td><input type="text" name="company"></td>
-			</tr>
-		</tbody>
-	</table>
+	<f:form action="search_s_day" method="get">
+		<p>
+			日：<input type="date" name="day">
+		</p>
+
+		<input type="submit" value="検索">
+
+	</f:form>
+
+	<f:form action="search_s_com" method="get">
+		<p>
+			会社名：<input type="text" name="company">
+		</p>
+
+		<input type="submit" value="検索">
+	</f:form>
 
 </body>
 </html>
