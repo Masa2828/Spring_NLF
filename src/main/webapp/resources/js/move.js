@@ -26,9 +26,3 @@ function clickSwitch() {
   });
 };
 document.addEventListener("DOMContentLoaded", clickSwitch, false);
-
-
-
-$(document).ready( function () {
-    $('#table_id').DataTable();
-} );

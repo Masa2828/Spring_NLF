@@ -103,8 +103,19 @@ public class LoginController {
 	}
 
 	// ログアウト
-	@RequestMapping(value = "/logout", method = RequestMethod.POST)
-	public String logout(HttpServletRequest req) {
+	@RequestMapping(value = "/logout_s", method = RequestMethod.POST)
+	public String logout_s(HttpServletRequest req) {
+		HttpSession session = req.getSession(true);
+
+		// 既存セッション破棄
+		session.invalidate();
+
+		return "/login/students";
+	}
+
+	// ログアウト
+	@RequestMapping(value = "/logout_t", method = RequestMethod.POST)
+	public String logout_t(HttpServletRequest req) {
 		HttpSession session = req.getSession(true);
 
 		// 既存セッション破棄

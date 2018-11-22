@@ -1,0 +1,52 @@
+@charset "UTF-8";
+.share_btn2{
+    display: inline-block;
+    text-decoration: none;
+    width: 50px;
+	margin:10px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 23px;
+	color:white;
+    border-radius: 12px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    font-weight: bold;
+    transition: .3s;
+}
+.share_btn2 .fa {line-height:50px}
+.share_btn2:hover{
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.share_btn2.shtw {background: #4285F4;}
+.share_btn2.shfb {background: #EA4335;}
+.share_btn2.shhtb {background: #FBBC05;}
+.share_btn2.shpkt {background: #4285F4;}
+.share_btn2.shfdly {background: #34A853;}
+.share_btn2.shgp {background: #EA4335;}
+
+
+
+
+input.input_box {
+    width: 17%;
+    color: #098;
+}
+
+.raised{
+  display: inline-block;
+  background-color: #fff;/*背景色*/
+  color: #098;/*文字色*/
+  font-size: 1em;/*文字サイズ*/
+  line-height: 2;
+  width:170px;
+  text-decoration: none;
+  letter-spacing: 0.05em;/*字間*/
+  padding: 0.2em 1em;/*ボタン内の余白*/
+  border-radius: 7px;/*角の丸み*/
+    cursor: pointer;
+  border-color: #098;
+}

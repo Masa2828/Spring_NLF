@@ -32,7 +32,7 @@
 
 
 
-	<f:form action="logout" method="post">
+	<f:form action="logout_t" method="post">
 		<input type="submit" value="ログアウト">
 	</f:form>
 

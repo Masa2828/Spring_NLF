@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+body {
+    /* bodyの配置設定(幅/中央揃え) */
+    text-align: center;
+    /* width: 851px;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+h1 {
+    /* h1のスタイル設定(高さ/余白/太字) */
+    height: 48px;
+    margin: 0px 0px 5px 0px;
+    padding: 6px 0px 0px 10px;
+    text-align: center;
+
+}
+
+div.box {
+    text-align: right;
+}
+
+p.img img {
+    width: 220px;
+}
