@@ -5,11 +5,4 @@
 
 Team:６
 
-PM:Asano
-<br>
-PR:Kikuchi
-<br>
-dev:Noto<br>
-dev:Hagiwara<br>
-dev:Kawabata<br>
-dev:Kami
+Only dev:Noto
