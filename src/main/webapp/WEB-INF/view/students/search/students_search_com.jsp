@@ -10,8 +10,6 @@
 </head>
 <body>
 
-
-	<h1>検索画面</h1>
 	<table>
 		<tr>
 			<th>開始日:</th>
